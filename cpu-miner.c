@@ -36,7 +36,7 @@
 #include <jansson.h>
 #include <curl/curl.h>
 #include <openssl/sha.h>
-#include <cuda_runtime.h>
+#include </usr/local/cuda/include/cuda_runtime.h>
 #include "compat.h"
 #include "miner.h"
 
