@@ -1,5 +1,5 @@
 #pragma once
-#include <cuda_runtime.h>
+#include </usr/local/cuda/include/cuda_runtime.h>
 
 #ifdef __INTELLISENSE__ 
 #define __CUDA_ARCH__ 610
