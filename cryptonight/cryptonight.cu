@@ -117,7 +117,7 @@ static bool substringsearch(const char *haystack, const char *needle, int &match
 	return false;
 }
 
-// CUDA Ger‰t nach Namen finden (gibt Ger‰te-Index zur¸ck oder -1)
+// CUDA Ger√§t nach Namen finden (gibt Ger√§te-Index zur√ºck oder -1)
 extern "C" int cuda_finddevice(char *name)
 {
 	int num = cuda_num_devices();
@@ -214,7 +214,7 @@ extern "C" int scanhash_cryptonight(int thr_id, uint32_t *pdata, const uint32_t 
 		if(stop_mining)
 		{
 			mining_has_stopped[thr_id] = true;
-			pthread_exit(nullptr);
+			pthread_exit(NULL);
 		}
 
 		if(foundNonce[0] < 0xffffffff)
