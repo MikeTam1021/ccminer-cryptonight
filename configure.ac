@@ -152,7 +152,7 @@ else
    CUDA_CFLAGS="-I/usr/local/cuda/include"
    CUDA_LIBS="-lcudart -static-libstdc++"
    CUDA_LDFLAGS="-L/usr/local/cuda/lib$SUFFIX"
-   NVCC="/usr/local/cuda/nvcc"
+   NVCC="/usr/local/cuda-8.0/bin/nvcc"
 fi
 AC_SUBST(CUDA_CFLAGS)
 AC_SUBST(CUDA_LIBS)
